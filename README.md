@@ -22,7 +22,7 @@ To get a user account you can send an application to the following email address
 * NVidia driver 384
 * cuda-9.0 (with cudnn 7.0.3)
 
-To add precompiled software (for instance cuda) to your own environment add the following lines to your `~/.basrc` file:
+To add precompiled software (for instance cuda) to your own environment add the following lines to your `~/.bashrc` file:
 
 For libraries:
 ```
