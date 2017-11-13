@@ -12,6 +12,11 @@ To get a user account you can send an application to the following email address
     * Timeframe (when you expect to start and finish)
     * Required resources
     * Required software
+    
+When you need access to the robolab, contact A.Visser@uva.nl with the following information:
+* studentnummer
+* passnummer
+
 
 # Hardware Specifications
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
