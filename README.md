@@ -38,4 +38,5 @@ For executables:
 ```
 export PATH=${PATH}:/usr/local/cuda/bin
 ```
-
+# Location
+The machine is located in the Robolab, room C3.165.
