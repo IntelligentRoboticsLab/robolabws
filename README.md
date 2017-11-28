@@ -40,3 +40,6 @@ export PATH=${PATH}:/usr/local/cuda/bin
 ```
 # Location
 The machine is located in the Robolab, room C3.165.
+
+# Updates
+To keep the machine safe and up to date, every first Tuesday of the month and update-upgrade will be performed. If this caused any troubles for you, inform the administrators.
