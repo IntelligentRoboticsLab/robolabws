@@ -42,4 +42,7 @@ export PATH=${PATH}:/usr/local/cuda/bin
 The machine is located in the Robolab, room C3.165.
 
 # Updates
-To keep the machine safe and up to date, every first Tuesday of the month and update-upgrade will be performed. If this caused any troubles for you, inform the administrators.
+To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade will be performed. If this caused any troubles for you, inform the administrators.
+
+# Stress shutoff
+Currently the machine shuts itself off when under stress. This seems to be a hardware problem in the motherboard; the temperature of the CPU and GPU are still OK when this occurs. The supplier is notified.
