@@ -1,5 +1,5 @@
 # Intentions
-The workstation can be used for any computationally intense project or homework assignment but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machine 
+The two workstation can be used for any computationally intense project or homework assignment but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machine 
 
 To get a user account you can send an application to the following email address: `douwe@dutchnaoteam.nl` and make sure it includes the following information:
 
@@ -26,6 +26,10 @@ When you need access to the robolab, contact A.Visser@uva.nl with the following 
 # Software
 * NVidia driver 384
 * cuda-9.0 (with cudnn 7.0.3)
+* Tensorflow wheels are available for python 2 and 3 on request
+* openCV has also been compiled and is available on request. 
+
+The on request software will soon be moved to a folder where it is accessible to all users of the machine.
 
 To add precompiled software (for instance cuda) to your own environment add the following lines to your `~/.bashrc` file:
 
@@ -46,3 +50,5 @@ To keep the machine safe and up to date, every first Tuesday of the month an upd
 
 # Stress shutoff
 Currently the machine shuts itself off when under stress. This seems to be a hardware problem in the motherboard; the temperature of the CPU and GPU are still OK when this occurs. The supplier is notified.
+
+update: the first machine(on the right in the robolab) has been returned by the supplier and is up and running again. The second machine (on the left in the robolab) has now got a problem, which we are working on. 
