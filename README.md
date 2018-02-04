@@ -26,8 +26,8 @@ When you need access to the robolab, contact A.Visser@uva.nl with the following 
 # Software
 * NVidia driver 384
 * cuda-9.0 (with cudnn 7.0.3)
-* Tensorflow wheels are available for python 2 and 3 on request
-* openCV has also been compiled and is available on request. 
+* Tensorflow wheels are available for python 2 and 3. The python2 wheel is located at /home/robolab/tensorflow_pk_2/ and the python 3 wheel is located at /home/robolab/tensorflow_pk/
+* openCV 3 has also been compiled and is available on request. 
 
 The on request software will soon be moved to a folder where it is accessible to all users of the machine.
 
@@ -48,7 +48,3 @@ The machine is located in the Robolab, room C3.165.
 # Updates
 To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade will be performed. If this caused any troubles for you, inform the administrators.
 
-# Stress shutoff
-Currently the machine shuts itself off when under stress. This seems to be a hardware problem in the motherboard; the temperature of the CPU and GPU are still OK when this occurs. The supplier is notified.
-
-update: the first machine(on the right in the robolab) has been returned by the supplier and is up and running again. The second machine (on the left in the robolab) has now got a problem, which we are working on. 
