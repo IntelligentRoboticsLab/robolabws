@@ -21,7 +21,8 @@ When you need access to the robolab, contact A.Visser@uva.nl with the following 
 # Hardware Specifications
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
 * Memory: 64 GB DDR4 
-* GPU: NVidia 1080 Ti (12 GB)
+* GPU for calculation: NVidia 1080 Ti (12 GB)
+* 2nd (older) GPU for display and visualisation
 
 # Software
 * NVidia driver 384
