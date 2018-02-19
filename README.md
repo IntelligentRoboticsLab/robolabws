@@ -17,12 +17,14 @@ When you need access to the robolab, contact A.Visser@uva.nl with the following 
 * studentnummer
 * passnummer
 
+# Important notice
+Keep in mind that your home directory on the computer is public. To prevent any trouble, it is smart to make folders containing important keys or details private, or make your entire home directory private.
 
 # Hardware Specifications
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
 * Memory: 64 GB DDR4 
 * GPU for calculation: NVidia 1080 Ti (12 GB)
-* 2nd (older) GPU for display and visualisation
+* 2nd (older) GPU for display and visualisation, a NVIDIA GTX 470.
 
 # Software
 * NVidia driver 384
