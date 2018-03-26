@@ -24,7 +24,7 @@ Keep in mind that your home directory on the computer is public. To prevent any 
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
 * Memory: 64 GB DDR4 
 * GPU for calculation: NVidia 1080 Ti (12 GB)
-* One computer has a Titan xp as a second GPU, and the other computer has a NVIDIA GTX 470 as second GPU, mainly to serve the display. 
+* One computer has a Titan xp as a second GPU and the other computer has a NVIDIA GTX 470 as second GPU, mainly to serve the display. 
 
 # Software
 * NVidia driver 384
