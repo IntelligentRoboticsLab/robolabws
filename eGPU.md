@@ -30,7 +30,8 @@ When you need access to the robolab, contact `A.Visser@uva.nl` with the followin
 
 # Reservations
 
-When you need an eGPU, you can send an reservation to the following email address: `douwe@dutchnaoteam.nl` and make sure it includes the following information:Your full name and those of your partners (if applicable)
+When you need an eGPU, you can send an reservation to the following email address: `douwe@dutchnaoteam.nl` and make sure it includes the following information:
+* Your full name and those of your partners (if applicable)
 * Education (AI, CS, etc..)
 * Education level (Bachelor/Master)
 * Honours Project (Yes/No)
