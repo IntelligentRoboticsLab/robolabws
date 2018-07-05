@@ -23,7 +23,7 @@ Older Macs typically have a Thunderbolt 2 interface. There is a Thunderbolt 2 to
 # Location
 The machine is located in the Robolab, room C3.165.
 
-When you need access to the robolab, contact A.Visser@uva.nl with the following information:
+When you need access to the robolab, contact `A.Visser@uva.nl` with the following information:
 
 * studentnummer
 * passnummer
