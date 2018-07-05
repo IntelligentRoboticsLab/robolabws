@@ -15,7 +15,7 @@ To get a user account you can send an application to the following email address
     * Required resources
     * Required software
     
-When you need access to the robolab, contact A.Visser@uva.nl with the following information:
+When you need access to the robolab, contact `A.Visser@uva.nl` with the following information:
 * studentnummer
 * passnummer
 
