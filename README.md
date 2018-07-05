@@ -1,5 +1,7 @@
 # Intentions
-The two workstation can be used for any computationally intense project or homework assignment but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machine 
+The two workstation can be used for any computationally intense project or homework assignment but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
+
+In addition, a external GPU station is available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: eGPU.md.
 
 To get a user account you can send an application to the following email address: `douwe@dutchnaoteam.nl` and make sure it includes the following information:
 
@@ -46,7 +48,7 @@ For executables:
 export PATH=${PATH}:/usr/local/cuda/bin
 ```
 # Location
-The machine is located in the Robolab, room C3.165.
+The machines are located in the Robolab, room C3.165.
 
 # Updates
 To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade will be performed. If this caused any troubles for you, inform the administrators.
