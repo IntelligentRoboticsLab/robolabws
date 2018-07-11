@@ -18,7 +18,7 @@ https://www.razerzone.com/gaming-systems/razer-core-v2
 The Razor Core has an 40Gbps Thunderbolt 3 cable. Physically it is an USB-C interface, but not every USB-C port is an Thunderbolt port.
 A Thunderbolt port can be recognized with a lighting symbol. Inside your laptop the Thunderbolt port is connected with the  PCIe 3.0 lanes. If your laptop connects 4 PCIe lanes, you can make use of the full 40Gbps.
 
-Older Macs typically have a Thunderbolt 2 interface. There is a Thunderbolt 2 to 3 converter available, together with a Thunderbolt 2 cable.
+Older Macs typically have a Thunderbolt 2 interface (physically a mini-display port). There is a Thunderbolt 2 to 3 converter available, together with a Thunderbolt 2 cable.
 
 # Ubuntu Software
 
