@@ -20,7 +20,13 @@ A Thunderbolt port can be recognized with a lighting symbol. Inside your laptop 
 
 Older Macs typically have a Thunderbolt 2 interface. There is a Thunderbolt 2 to 3 converter available, together with a Thunderbolt 2 cable.
 
-# Windows Software
+# Ubuntu Software
+
+Because a Thunderbolt provides a lot of access to your computer, as it supports protocols as PCIe 3.0, DisplayPort 1.2 and USB 3.1 (giving access to both input/output devices and storage). Access to your Ubuntu laptop have to be autorized, which can be checked with the command 'cat /sys/bus/thunderbolt/devices/0-103/authorized'. If this returns 0, access can be granted with the command 'sudo tbtadm approve-all'. The tool tbtadm can be installed with the command 'sudo apt-get install thunderbolt-tools' for Ubuntu 18.04 (or higher), or installed from source code (https://github.com/intel/thunderbolt-software-user-space).
+
+You can check if your external GPU is accessible with the command 'lspci | grep -i nvidia'. After that, follow the instructions of https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#abstract
+
+# Windows10 Software
 
 Once the Thunderbolt cable is connected to your Windows laptop, Windows will automatically install the device software (PCI-drivers, VGA-display, etc). The drivers for the display adapters are recent, yet not the latest. Downloading the latest drivers from Nvidia should in principal solve this, yet the Nvidia-install packages fails to detect the external GPU during the compatibility check, without an option to proceed on own risk (and without further notice).
 
