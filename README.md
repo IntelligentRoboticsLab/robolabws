@@ -3,7 +3,7 @@ The two workstations can be used for any computationally intense project but is 
 
 In addition, a external GPU station is available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: eGPU.md.
 
-To get a user account you can send an application to the following email address: `workstation@dutchnaoteam.nl` and make sure it includes the following information:
+To get a user account you can send an application to the following email address: `robolabws@gmail.com` and make sure it includes the following information:
 
 * Your full name and those of your partners (if applicable)
 * Education (AI, CS, etc..)
@@ -62,7 +62,7 @@ The following are rules that every user granted access to the workstation should
 * Abusing the use of a desktop, thus clouding the GPU is penalising others who also need the GPU power, please check carefully whether your program is using what you expected it to use.
 * Send an update in the Slack channel of your workstation when you'll be using a GPU, indicating the time span, which GPU will be used (if relevant) and how long the process will approximately run.
 * Every user, should if possible, be present in room C3.165 when using the workstations. Exceptions is when the room is used for teaching purposes.
-* In the case of the unavailability of the room, one could still connect to the workstation via SSH connection with the appropriate credentials through the rminal or via SFTP connection in Nautilus or any file manager in Linux or through an IDE
+* In the case of the unavailability of the room, one could still connect to the workstation via SSH connection with the appropriate credentials through the terminal or via SFTP connection in Nautilus or any file manager in Linux or through an IDE
 * When using a notebook remotely on the workstation, always close after the work is finished, it frees spaces
 * Always close all applications and log off if you're not using the workstation to free space on the GPU.
 * When you're done with your project, your account will be blocked. You will then receive a notification of the admin about the termination of your access to the Workstation.
