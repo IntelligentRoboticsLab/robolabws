@@ -7,7 +7,7 @@ In the Robolab an external GPU is available, which can be used for machine learn
 * Type: Razer Core v2
 * Cpu: none
 * Memory: none 
-* GPU for calculation: Currently NVidia Tesla C2050, will be update Nvidia 1080 Ti or better
+* GPU for calculation: Currently NVidia Tesla C2050, will be update Nvidia Titan Xp in August 2018
 * interface: Thunderbolt 3
 
 More details:
@@ -41,7 +41,7 @@ Luckely, Nvidia has a https://developer.nvidia.com/cuda-toolkit-archive, includi
 
 With CUDA 7.5 still not all CUDA functionality could be used. Programs which use both CUDA and OpenGL context fail, because no OpenGL display is available on the external GPU. Yet, all matrix calculation work fine, it only goes wrong when you also like to see the visualisations. Best test on CUDA and OpenGL is recursiveGaussian (in CUDA Samples\v9.2\3_Imaging), which gracely falls back to benchmark when no OpenGL display is found.
 
-Also tested the Tesla C2050 with the Matlab Parallel Computing Toolbox. In principle, if you can run any CUDA code on the card then so can MATLAB. MATLAB directly interfaces with the CUDA driver, the cuda-toolkit is not needed to be installed. In practice the Tesla C2050 is detected by Matlab (gpuDeviceCount returns 1), but using more advanced functionality (such as the  trainNetwork function of https://nl.mathworks.com/help/nnet/ug/deep-learning-with-big-data-on-gpus-and-in-parallel.html) fails on the CUDA version (at least CUDA 9.1 for R2018b). So for all functionality of the Parallel Computing Toolbox a NVidia card with at least a compute capability of 3.0 is needed (https://developer.nvidia.com/academic_gpu_seeding). 
+Also tested the Tesla C2050 with the Matlab Parallel Computing Toolbox. In principle, if you can run any CUDA code on the card then so can MATLAB. MATLAB directly interfaces with the CUDA driver, the cuda-toolkit is not needed to be installed. In practice the Tesla C2050 is detected by Matlab (gpuDeviceCount returns 1), but using more advanced functionality (such as the  trainNetwork function of https://nl.mathworks.com/help/nnet/ug/deep-learning-with-big-data-on-gpus-and-in-parallel.html) fails on the CUDA version (at least CUDA 9.1 for R2018b). So for all functionality of the Parallel Computing Toolbox a NVidia card with at least a compute capability of 3.0 is needed (such as the Titan Xp donated via https://developer.nvidia.com/academic_gpu_seeding). 
 
 # Location
 The machine is located in the Robolab, room C3.165.
