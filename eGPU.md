@@ -30,7 +30,9 @@ Because a Thunderbolt provides a lot of access to your computer, as it supports 
 
 You can check if your external GPU is accessible with the command 'lspci | grep -i nvidia'. After that, follow the instructions of [the CUDA installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#abstract).
 
-Tested the Titan Xp with the Matlab Parallel Computing Toolbox. In principle, if you can run any CUDA code on the card then so can MATLAB. MATLAB directly interfaces with the CUDA driver, it seems that it is not needed that the CUDA toolkit installed. In practice the CUDA toolkit was already installed. The Titan Xp is detected by Matlab (gpuDeviceCount returns 1), and with but the command 'd = gpuDevice' more details about the GPU could be inspected. Executed the [MATLAB GPU benchmarking code](https://nl.mathworks.com/help/distcomp/examples/benchmarking-a-b-on-the-gpu.html), and the Titan Xp showed a speedup of 20.7x for a Single and 4.7x for a Double precision operation, compared to computing this with the CPU.
+Tested the Titan Xp with the Matlab Parallel Computing Toolbox. In principle, if you can run any CUDA code on the card then so can MATLAB. MATLAB directly interfaces with the CUDA driver, it seems that it is not needed that the CUDA toolkit is installed. In practice the CUDA toolkit was already installed. The Titan Xp is detected by Matlab (gpuDeviceCount returns 1), and with but the command 'd = gpuDevice' more details about the GPU could be inspected. Executed the [MATLAB GPU benchmarking code](https://nl.mathworks.com/help/distcomp/examples/benchmarking-a-b-on-the-gpu.html), and the Titan Xp showed a speedup of 20.7x for a Single and 4.7x for a Double precision operation, compared to computing this with the CPU.
+
+Installing the CUDA framework allows to inspect the load of the eGPU with command 'nvidia-smi'. Pure CUDA calculations work out of the box, for visualization on an external device CUDA has to have access to the external display.
 
 # Windows10 Software
 
