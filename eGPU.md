@@ -48,7 +48,7 @@ When you need access to the robolab, contact `A.Visser@uva.nl` with the followin
 
 # Reservations
 
-When you need an eGPU, you can send an reservation to the following email address: `douwe@dutchnaoteam.nl` and make sure it includes the following information:
+When you need an eGPU, you can send an reservation to the following email address: `robolabws@gmail.com` and make sure it includes the following information:
 * Your full name and those of your partners (if applicable)
 * Education (AI, CS, etc..)
 * Education level (Bachelor/Master)
@@ -61,7 +61,7 @@ When you need an eGPU, you can send an reservation to the following email addres
   
  # Older GPUs
  
- Before the Titan XP arrived, the Razer Core v2 was tested with an older GPU
+ Before the Titan XP arrived, the Razer Core v2 was tested with an older GPU:
   
   * Tesla C2050
 
