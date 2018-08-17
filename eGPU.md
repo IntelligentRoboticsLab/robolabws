@@ -40,7 +40,7 @@ Once the Thunderbolt cable is connected to your Windows laptop, Windows will aut
 
 The CUDA framework has this option to proceed without a compatible GPU. Yet, care has to be taken for the selection of the correct version of the CUDA framework (which is GPU dependent).
 
-Note that it is wise to dismount the GPU before you disconnect the Thunderbolt cable. Dismounting can be done via the Nvidia GeoForce taskbar, which can also be used to check which programs are currently running on the GPU.
+Note that it is wise to dismount the GPU before you disconnect the Thunderbolt cable. Dismounting can be done via the Nvidia GPU Activity window on the taskbar, which can also be used to check which programs are currently running on the GPU.
 
 # Location
 The machine is located in the Robolab, room C3.165.
