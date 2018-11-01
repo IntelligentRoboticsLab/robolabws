@@ -3,7 +3,8 @@ The two workstations can be used for any computationally intense project but is 
 
 In addition, a external GPU station is available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: eGPU.md.
 
-To get a user account you can send an application to the following email address: `robolabws@gmail.com` and make sure it includes the following information:
+To get a user account, please fill in the following form: https://docs.google.com/forms/d/17g55QFfQvWaMBd_pTkS5fbABbB_1nxvXvbQvaZgeznc/edit 
+This form will ask the following details:
 
 * Your full name and those of your partners (if applicable)
 * Education (AI, CS, etc..)
@@ -19,6 +20,8 @@ To get a user account you can send an application to the following email address
 When you need access to the robolab, contact `A.Visser@uva.nl` with the following information:
 * studentnummer
 * passnummer
+
+If any problems or questions come up, you can email to `robolabws@gmail.com` to email the admins.
 
 # Important notice
 Keep in mind that your home directory on the computer is public. To prevent any trouble, it is smart to make folders containing important keys or details private, or make your entire home directory private.
