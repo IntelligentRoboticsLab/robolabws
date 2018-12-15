@@ -24,6 +24,76 @@ Older Macs typically have a Thunderbolt 2 interface (physically a mini-display p
 
 Apple recommends as an alternative eGPU the [Blackmagic eGPU](https://support.apple.com/en-us/HT208544), but the AMD GPU inside cannot be upgraded. An alternative (upgradable) configuration could be a [Razer Core X with a Radeon Vega 64 ](https://9to5mac.com/2018/08/02/2018-macbook-pro-amd-vega-64-egpu-video/). Yet, the pre-requisite for these AMD alternatives  is that you can [port your Machine Learning project to an AMD Radeon GPU](https://instinct.radeon.com/en/6-deep-learning-projects-amd-radeon-instinct/).
 
+# Step-by-step installation for Thunderbolt 2 MacBook models:
+ Hardware used in this test:
+* MacBook Pro Retina mid-2015 model
+* NVIDIA Titan XP
+* Razer Core v2 enclosure
+* Thunderbolt 3 to Thunderbolt 2 adapter
+
+> You will need macOS High Sierra. This has been tested on the latest macOS Mojave, but it does not work at this moment.
+
+## Install macOS-eGPU.sh
+The eGPU community has made an easy-to-use bash script to get an eGPU compatible with earlier versions of the MacBook (pre-Thunderbolt 3). The repository can be found here. I did not use their automatic installation script, as it installs a different CUDA version than we need for compiling pytorch.
+
+1. Disable SIP in recovery mode: `csrutil disable`
+2. Download and run the script: `bash <(curl -s https://raw.githubusercontent.com/learex/macOS-eGPU/master/macOS-eGPU.sh)`
+3. Follow the instructions.
+
+You will not be able to hot (un-)plug the external GPU. This will cause a fatal kernel error.
+After installation and a reboot, you will be able to see the external GPU in the System Information under the Graphics/Display tab.
+
+## Conda Installation
+Install miniconda3 from: https://conda.io/miniconda.html
+> Make sure to remember the installation directory, default: /Users/<USERNAME>/miniconda3
+
+## CUDA Installation
+Install CUDA 9.2 from the NVIDIA Developer website (link). We will need Xcode 9.2 and Apple LVVM 9.0.0 to compile.
+Then follow the instructions here or follow mine:
+1. Install Xcode 9.2 from the Apple Developer download page.
+2. `sudo xcode-select -s /Applications/<Xcode_install_dir>/Contents/Developer`
+3. `xcode-select --install`
+4. Verify you are on Apple LVVM 9.0.0: `/usr/bin/cc --version`
+
+Verify you are running CUDA Driver version 396.xx by going to the CUDA panel in  System Preferences.
+ 
+ ## cuDNN Installation
+Download and install cuDNN version 7.2.1.38 for CUDA 9.2, follow the instructions here or follow mine:
+1. Unzip the archive and run `tar -xzvf cudnn-9.2-osx-x64-v7.tgz`
+Run the following:
+
+```
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include && cp cuda/lib/libcudnn* /usr/local/cuda/lib && chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib/libcudnn*
+```
+
+## Setup conda environment
+ ```
+ conda create --name ptc python=3.6 pip
+alias ptc='export CMAKE_PREFIX_PATH=~/miniconda3/envs/ptc ; source activate ptc'
+alias coff='source deactivate; export CMAKE_PREFIX_PATH=~/miniconda3'
+ptc
+conda install numpy pyyaml mkl mkl-include setuptools cmake cffi typing
+```
+
+## Compile and install Pytorch from source
+```
+git clone --recursive https://github.com/pytorch/pytorch
+cd pytorch
+git checkout v1.0rc1
+MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ python setup.py install
+```
+To test it:
+```
+python
+import torch
+torch.cuda.is_available()
+print(torch.cuda.device_name(0))
+d = torch.device("cuda")
+x = torch.tensor([1.0, 2.0]).to(d)
+```
+
+
+
 # Ubuntu Software
 
 Because a Thunderbolt provides a lot of access to your computer, as it supports protocols as PCIe 3.0, DisplayPort 1.2 and USB 3.1 (giving access to both input/output devices and storage). Access to your Ubuntu laptop have to be autorized, which can be checked with the command 'cat /sys/bus/thunderbolt/devices/0-103/authorized'. If this returns 0, access can be granted with the command 'sudo tbtadm approve-all'. The tool tbtadm can be installed with the command 'sudo apt-get install thunderbolt-tools' for Ubuntu 18.04 (or higher), or installed from [source code provided by Intel](https://github.com/intel/thunderbolt-software-user-space).
@@ -63,6 +133,7 @@ When you need an eGPU, you can send an reservation to the following email addres
   * Required resources
   * Required software
   
+
  # Older GPUs
  
  Before the Titan XP arrived, the Razer Core v2 was tested with an older GPU:
