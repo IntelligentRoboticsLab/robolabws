@@ -1,5 +1,7 @@
+There are now four workstations available: two in the robolab (C3.165) and two in the blue-student lab (C2.116)/
+
 # Intentions
-The two workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
+The four workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
 
 In addition, a external GPU station is available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: eGPU.md.
 
@@ -27,6 +29,13 @@ If any problems or questions come up, you can email to `robolabws@gmail.com` to 
 Keep in mind that your home directory on the computer is public. To prevent any trouble, it is smart to make folders containing important keys or details private, or make your entire home directory private.
 
 # Hardware Specifications
+
+The two Aurora-R7 computers have the following specifications:
+* Cpu: Intel Core i7 8700 (6 cores/12 threads)
+* Memory: 64 GB DDR4
+* GPU for calculation: NVidia 2080 Ti (11 GB)
+
+The two CoolerMaster computers have the following specifications:
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
 * Memory: 64 GB DDR4
 * GPU for calculation: NVidia 1080 Ti (12 GB)
