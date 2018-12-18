@@ -3,7 +3,7 @@ There are now four workstations available: two in the robolab (C3.165) and two i
 # Intentions
 The four workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
 
-In addition, a external GPU station is available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: eGPU.md.
+In addition, a external GPU station is available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: <a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eGPU.md> eGPU.md</a>.
 
 To get a user account, please fill in the following form: https://docs.google.com/forms/d/17g55QFfQvWaMBd_pTkS5fbABbB_1nxvXvbQvaZgeznc/edit 
 This form will ask the following details:
