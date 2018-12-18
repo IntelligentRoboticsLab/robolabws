@@ -1,4 +1,4 @@
-There are now four workstations available: two in the robolab (C3.165) and two in the blue-student lab (C2.116)/
+There are now four workstations available: two in the robolab (C3.165) and two in the blue-student lab (C2.116).
 
 # Intentions
 The four workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
