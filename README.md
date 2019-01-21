@@ -96,7 +96,7 @@ The following are handy commands, when one need to connect and be flexible while
   ```ssh -L 18888:127.0.0.1:8888 user@ipWorkStation ``` </br>
   Serve locally to browser: ```http://127.0.0.1:18888/ ``` </br>
 * Watch the usage of the GPU and which user is using it </br>
-  ```watch -n 0,1 nvidia-smi```
+  ```watch -n 1 nvidia-smi```
 * Connecting remotely through Nautilus </br>
   * Open Nautilus locally and select connect to server </br>
   * Set as server address: ```stfp://ipWorkStation/home/user```
@@ -106,3 +106,5 @@ The following are handy commands, when one need to connect and be flexible while
 * Alternative text editor on the workstations besides *gedit* are <a href="https://www.jetbrains.com/help/pycharm/install-and-set-up-pycharm.html"> pycharm </a>, <a href="https://www.jetbrains.com/help/clion/install-and-set-up-product.html"> cLion </a> or <a href="http://docs.sublimetext.info/en/latest/getting_started/install.html"> sublime </a>. These editors are installable without admin rights. </br>
 * Installing new packages for python is done by using the following command that do not requires admin rights </br>
 ``` pip install --user nameOfPackage ```
+* Using the environment variable CUDA_VISIBLE_DEVICES, you can select which GPU your program uses. Use like this example to only use the second GPU in the computer:
+```CUDA_VISIBLE_DEVICES=1 python3 myprogram.py```
