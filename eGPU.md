@@ -108,7 +108,7 @@ Installing the CUDA framework allows to inspect the load of the eGPU with comman
 
 Once the Thunderbolt cable is connected to your Windows laptop, Windows will automatically install the device software (PCI-drivers, VGA-display, etc). The drivers for the display adapters are recent, yet not the latest. Downloading the latest drivers from Nvidia should in principal solve this, yet the Nvidia-install packages fails to detect the external GPU during the compatibility check, without an option to proceed on own risk (and without further notice).
 
-The CUDA framework has this option to proceed without a compatible GPU. Yet, care has to be taken for the selection of the correct version of the CUDA framework (which is GPU dependent).
+The CUDA framework has this option to proceed without a compatible GPU. Yet, care has to be taken for the selection of the correct version of the CUDA framework (which is GPU dependent). Note that the CUDA framework requires for its Nsight package that prior to the CUDA framework Visual Studio is installed (which can be downloaded from [visualstudio.com](https://visualstudio.com).
 
 Note that it is wise to dismount the GPU before you disconnect the Thunderbolt cable. Dismounting can be done via the Nvidia GPU Activity window on the taskbar, which can also be used to check which programs are currently running on the GPU.
 
