@@ -30,21 +30,33 @@ Keep in mind that your home directory on the computer is public. To prevent any 
 
 # Hardware Specifications
 
-The two Aurora-R7 computers have the following specifications:
-* Cpu: Intel Core i7 8700 (6 cores/12 threads)
-* Memory: 64 GB DDR4
-* GPU for calculation: NVidia 2080 Ti (11 GB)
-
-The two CoolerMaster computers have the following specifications:
+The two CoolerMaster computers have the following specifications:<br>
+RobolabWS 1 (IP ends with .70):
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
 * Memory: 64 GB DDR4
-* GPU for calculation: NVidia 1080 Ti (12 GB)
+* GPU for calculation: NVidia 1080 Ti (12 GB) and NVidia Titan XP(12GB) with CUDA 9.0 and driver 384
 * One computer has a Titan xp as a second GPU and the other computer has a NVIDIA GTX 470 as second GPU, mainly to serve the display.
 
+RobolabWS 2 (IP ends with .74):
+* Cpu: Intel E5-2640 v4 (10 cores/20 threads)
+* Memory: 64 GB DDR4
+* GPU for calculation: NVidia 1080 Ti (12 GB) and NVidia GTX 1080 (8GB) with CUDA 9.0 and driver 384
+* One computer has a Titan xp as a second GPU and the other computer has a NVIDIA GTX 470 as second GPU, mainly to serve the display.
+
+The two Aurora-R7 computers have the following specifications:<br>
+robolabWS 3(IP ends with .107):
+* Cpu: Intel Core i7 8700 (6 cores/12 threads)
+* Memory: 64 GB DDR4
+* GPU for calculation: NVidia 2080 Ti (11 GB), NVidia Titan V(12GB) with CUDA 9 and 10 and driver 415
+
+robolabWS 4(ip ends with .108):
+* Cpu: Intel Core i7 8700 (6 cores/12 threads)
+* Memory: 64 GB DDR4
+* GPU for calculation: NVidia 2080 Ti (11 GB) with CUDA 10 and driver 415
+
+
 # Software
-* NVidia driver 384
-* cuda-9.0 (with cudnn 7.0.3)
-* Tensorflow wheels are available for python 2 and 3. The python2 wheel is located at /home/robolab/tensorflow_pk_2/ and the python 3 wheel is located at /home/robolab/tensorflow_pk/. Currently the wheels are Tensorflow version 1.4. When using the wheels to install tensorflow, you will get a version that is optimized for the CPU in the workstation and it will perform better than the version that is installed using pip.
+* Tensorflow wheels are available for python 2 and 3. The python2 wheel is located at /home/robolab/tensorflow_pk_2/ and the python 3 wheel is located at /home/robolab/tensorflow_pk/ on workstation 1 and 2. Currently the wheels are Tensorflow version 1.4. When using the wheels to install tensorflow, you will get a version that is optimized for the CPU in the workstation and it will perform better than the version that is installed using pip.
 * openCV 3 has also been compiled and is available on request.
 
 The on request software will soon be moved to a folder where it is accessible to all users of the machine.
@@ -62,9 +74,10 @@ export PATH=${PATH}:/usr/local/cuda/bin
 ```
 # Location
 The machines are located in the Robolab, room C3.165.
+RobolabWS 1 and 3 are located in the Robolab, room C3.165 and RobolabWS 2 and 4 are located in C2.115.
 
 # Updates
-To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade will be performed. If this caused any troubles for you, inform the administrators.
+To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade and a restart will be performed. If this caused any troubles for you, inform the administrators.
 
 # Guidelines
 The following are rules that every user granted access to the workstation should follow:
