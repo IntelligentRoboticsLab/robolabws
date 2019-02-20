@@ -18,6 +18,8 @@ https://www.razerzone.com/gaming-systems/razer-core-v2
 The Razor Core has an 40Gbps Thunderbolt 3 cable. Physically it is an USB-C interface, but not every USB-C port is an Thunderbolt port.
 A Thunderbolt port can be recognized with a lighting symbol. Inside your laptop the Thunderbolt port is connected with the  PCIe 3.0 lanes. If your laptop connects 4 PCIe lanes, you can make use of the full 40Gbps.
 
+If you have a workstation, we have [https://www.gigabyte.com/Motherboard/GC-TITAN-RIDGE-rev-10#kf GC-Titan Ridge card] available, which you can use if you have a free 4 PCIe lane slot. Note that the GC-Titan Ridge Installation Guide also requires to be connected internally with both a double power cable a, a USB-B to a free F_USB connector and a USB-C to a free THB_C connector on the motherboard. There is [https://egpu.io/forums/thunderbolt-enclosures/list-of-intel-titan-ridge-thunderbolt-3-devices/paged/3/ a rumor] that the card can also work without those connections, but that has still to be confirmed.
+
 # macOS Software
 
 Older Macs typically have a Thunderbolt 2 interface (physically a mini-display port). With the eGPU there is a Thunderbolt 2 to 3 converter available, together with a Thunderbolt 2 cable. That being said, Apple disabled eGPU over Thunderbolt 1 and 2 with macOS 10.13.4 and Nvidia GPU's are not officially supported. There are [ways to work around this](https://github.com/mayankk2308/purge-wrangler), but your mileage may vary.
