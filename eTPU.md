@@ -10,10 +10,21 @@ The downside is that you have to do cross-development on your laptop and port yo
 * Type: Coral - Google Edge TPU
 * Cpu: none
 * Memory: none 
-* TPU for calculation:  Global Unichip Corpi 
-* interface: USB-C
+* TPU for calculation: Global Unichip Corp
+* interface: USB 3.1 (gen 1) Type-C socket
 
 More details:
 https://coral.withgoogle.com/products/accelerator/
 
 # Interface
+
+# Performance
+
+Note the performance in <a href=https://coral.withgoogle.com/tutorials/edgetpu-faq/>Frequent Asked Questions</a>, where the external TPU boosted the performance of a desktop CPU with a factor 20x.
+
+
+# Notes
+
+When you first set up the Coral USB Accelerator, you can select whether to use the default or maximum clock frequency. The maximum clock frequency runs at 2x the default setting.
+
+To change the setting later, you currently must uninstall the libedgetpu_*.so file, then rerun the install script, in which you'll be prompted to select the setting.
