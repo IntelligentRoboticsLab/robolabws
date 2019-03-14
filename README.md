@@ -1,3 +1,5 @@
+# Machine Learning Machines
+
 There are now four workstations available: two in the robolab (C3.165) and two in the blue-student lab (C2.116).
 
 # Intentions
