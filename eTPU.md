@@ -18,6 +18,18 @@ https://coral.withgoogle.com/products/accelerator/
 
 # Interface
 
+https://www.tensorflow.org/lite
+
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite
+
+# Tutorials
+
+https://www.tensorflow.org/guide/using_tpu
+
+https://coral.withgoogle.com/tutorials/edgetpu-retrain-classification/
+
+https://coral.withgoogle.com/tutorials/edgetpu-retrain-classification-ondevice/
+
 # Performance
 
 Note the performance in <a href=https://coral.withgoogle.com/tutorials/edgetpu-faq/>Frequent Asked Questions</a>, where the external TPU boosted the performance of a desktop CPU with a factor 20x.
