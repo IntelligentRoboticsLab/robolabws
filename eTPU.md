@@ -18,6 +18,8 @@ https://coral.withgoogle.com/products/accelerator/
 
 # Interface
 
+https://coral.withgoogle.com/tutorials/accelerator/#setup-for-linux-or-raspberry-pi
+
 https://www.tensorflow.org/lite
 
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite
