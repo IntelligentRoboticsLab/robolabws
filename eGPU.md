@@ -1,6 +1,6 @@
 # external GPU
 
-In the Robolab an external GPU is available, which can be used for machine learning applications. In addition, two workstations with good internal GPUs are available as rapid prototyping machines. Those machines are described in another document (README.md). The benefit of an external GPU is that you can use your own laptop, the downside is that your laptop needs at least a Tunderbolt interface and that you have to some additional configuration.
+In the Robolab an external GPU is available, which can be used for machine learning applications. In addition, four workstations with good internal GPUs are available as rapid prototyping machines. Those machines are described in another document (README.md). The benefit of an external GPU is that you can use your own laptop, the downside is that your laptop needs at least a Tunderbolt interface and that you have to some additional configuration.
 
 # Hardware Specifications
 
