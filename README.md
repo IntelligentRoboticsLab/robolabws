@@ -37,13 +37,11 @@ RobolabWS 1 (IP ends with .70):
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
 * Memory: 64 GB DDR4
 * GPU for calculation: NVidia 1080 Ti (12 GB) and NVidia Titan XP(12GB) with CUDA 9.0 and driver 384
-* One computer has a Titan xp as a second GPU and the other computer has a NVIDIA GTX 470 as second GPU, mainly to serve the display.
 
 RobolabWS 2 (IP ends with .74):
 * Cpu: Intel E5-2640 v4 (10 cores/20 threads)
 * Memory: 64 GB DDR4
 * GPU for calculation: NVidia 1080 Ti (12 GB) and NVidia GTX 1080 (8GB) with CUDA 9.0 and driver 384
-* One computer has a Titan xp as a second GPU and the other computer has a NVIDIA GTX 470 as second GPU, mainly to serve the display.
 
 The two Aurora-R7 computers have the following specifications:<br>
 robolabWS 3(IP ends with .107):
