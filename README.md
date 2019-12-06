@@ -54,6 +54,10 @@ robolabWS 4(ip ends with .108):
 * Memory: 64 GB DDR4
 * GPU for calculation: NVidia 2080 Ti (11 GB) with CUDA 10 and driver 415
 
+The four Aurora-R9 computers have the following specifications:<br>
+* Cpu: Intel Core i7 9700 (8 cores/16 threads)
+* Memory: 64 GB DDR4
+* GPU for calculation: NVidia 2080 Ti (11 GB) with CUDA 10 and driver 415
 
 # Software
 * Tensorflow wheels are available for python 2 and 3. The python2 wheel is located at /home/robolab/tensorflow_pk_2/ and the python 3 wheel is located at /home/robolab/tensorflow_pk/ on workstation 1 and 2. Currently the wheels are Tensorflow version 1.4. When using the wheels to install tensorflow, you will get a version that is optimized for the CPU in the workstation and it will perform better than the version that is installed using pip.
