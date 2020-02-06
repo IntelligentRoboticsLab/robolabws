@@ -1,9 +1,9 @@
 # Machine Learning Machines
 
-There are now four workstations available: two in the robolab (C3.165) and two in the blue-student lab (C2.116).
+There are now eight workstations available: four in the robolab (C3.165) and four in the blue-student lab (C2.116).
 
 # Intentions
-The four workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
+The workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
 
 In addition, a external GPU station is available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: <a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eGPU.md> eGPU.md</a>. For mobile applications an external TPU is availabe (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eTPU.md>eTPU.md</a>) 
 
