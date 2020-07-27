@@ -1,6 +1,6 @@
 # external VPU and TPU
 
-In the Robolab two types of external VPU/TPUs are available, which can be used for mobile machine learning applications. This is a Intel Myriad X VPU and a Google Coral Edge TPU.
+In the Robolab two types of external VPU/TPUs are available, which can be used for mobile machine learning applications. This are the Intel Myriad X VPU and the Google Coral Edge TPU.
 
 In addition, an external GPU (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eGPU.md> eGPU.md</a>) and four workstations with good internal GPUs are available as rapid prototyping machines (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/README.md>README.md</a>).
 
