@@ -59,6 +59,11 @@ The four Aurora-R9 computers have the following specifications:<br>
 * Memory: 64 GB DDR4
 * GPU for calculation: NVidia 2080 Ti (11 GB) with CUDA 10 and driver 415
 
+The ip for WS5 ends with .204
+The ip for WS6 ends with .207
+The ip for WS7 ends with .206
+The ip for WS8 ends with .205
+
 # Software
 * Tensorflow wheels are available for python 2 and 3. The python2 wheel is located at /home/robolab/tensorflow_pk_2/ and the python 3 wheel is located at /home/robolab/tensorflow_pk/ on workstation 1 and 2. Currently the wheels are Tensorflow version 1.4. When using the wheels to install tensorflow, you will get a version that is optimized for the CPU in the workstation and it will perform better than the version that is installed using pip.
 * openCV 3 has also been compiled and is available on request.
@@ -79,6 +84,7 @@ export PATH=${PATH}:/usr/local/cuda/bin
 # Location
 The machines are located in the Robolab, room C3.165.
 RobolabWS 1 and 3 are located in the Robolab, room C3.165 and RobolabWS 2 and 4 are located in C2.115.
+RobolabWS 5,6,7 and 8 are located at the blue student lab in C2.???.
 
 # Updates
 To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade and a restart will be performed. If this caused any troubles for you, inform the administrators.
