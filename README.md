@@ -105,6 +105,7 @@ The following are rules that every user granted access to the workstation should
 
 # Tips
 The following are handy commands, when one need to connect and be flexible while working with a SSH connection:
+* Start a vpn-connection to get access to the UvA network
 * Connecting to the workstation </br>
   ```ssh user@ipWorkStation``` </br>
   password: userPassWord
