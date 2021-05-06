@@ -64,6 +64,12 @@ The ip for WS6 ends with .207<br>
 The ip for WS7 ends with .206<br>
 The ip for WS8 ends with .205<br>
 
+The two Aurora-R11 computers have the following specifications:<br>
+* Cpu: Intel Core i9 10900KF (10 cores/20 threads)
+* Memory: 64 GB DDR4
+* GPU for calculation: NVidia RTX 3090 (24 GB)
+
+
 # Software
 * The workstations are running Ubuntu 18.04.4 LTS
 * Tensorflow wheels are available for python 2 and 3. The python2 wheel is located at /home/robolab/tensorflow_pk_2/ and the python 3 wheel is located at /home/robolab/tensorflow_pk/ on workstation 1 and 2. Currently the wheels are Tensorflow version 1.4. When using the wheels to install tensorflow, you will get a version that is optimized for the CPU in the workstation and it will perform better than the version that is installed using pip.
