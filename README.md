@@ -1,6 +1,6 @@
 # Machine Learning Machines
 
-There are now eight workstations available: four in the robolab (C3.165) and four in the blue-student lab (C2.116).
+There are now ten workstations available: four in the robolab (C3.165) and six in the blue-student lab (C2.115 and C2.116).
 
 # Intentions
 The workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
@@ -91,7 +91,7 @@ export PATH=${PATH}:/usr/local/cuda/bin
 # Location
 The machines are located in the Robolab, room C3.165.
 RobolabWS 1 and 3 are located in the Robolab, room C3.165 and RobolabWS 2 and 4 are located in C2.115.
-RobolabWS 5,6,7 and 8 are located at the blue student lab in C2.116.
+RobolabWS 5,6,7 and 8 are located at the blue student lab in C2.116. RobolabWS 9 and 10 are located in the Robolab 
 
 # Updates
 To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade and a restart will be performed. If this caused any troubles for you, inform the administrators.
