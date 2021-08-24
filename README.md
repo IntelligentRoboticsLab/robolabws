@@ -69,6 +69,9 @@ The two Aurora-R11 computers have the following specifications:<br>
 * Memory: 64 GB DDR4
 * GPU for calculation: NVidia RTX 3090 (24 GB)
 
+The ip for WS9 ends with 127<br>
+The ip for WS10 ends with .126<br>
+
 
 # Software
 * The workstations are running Ubuntu 18.04.4 LTS
