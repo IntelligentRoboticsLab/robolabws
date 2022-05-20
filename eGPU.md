@@ -1,8 +1,17 @@
 # external GPU
 
-In the Robolab an external GPU is available, which can be used for machine learning applications. In addition an external TPU for mobile application is availabe (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eTPU.md>eTPU.md</a>) and four state-of-the-art workstations with good internal GPUs are available as rapid prototyping machines. Those machines are described in another document (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/README.md>README.md</a>). The benefit of an external GPU is that you can use your own laptop, the downside is that your laptop needs at least a Tunderbolt interface and that you have to some additional configuration.
+In the Robolab two external GPUs is available, which can be used for machine learning applications. In addition an external TPU for mobile application is availabe (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eTPU.md>eTPU.md</a>) and 10 state-of-the-art workstations with good internal GPUs are available as rapid prototyping machines. Those machines are described in another document (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/README.md>README.md</a>). The benefit of an external GPU is that you can use your own laptop, the downside is that your laptop needs at least a Tunderbolt interface and that you have to some additional configuration.
 
 # Hardware Specifications
+
+* Type: Razer Core X
+* Cpu: none
+* Memory: none 
+* GPU for calculation: Nvidia Titan X
+* interface: Thunderbolt 4
+
+More details:
+https://www.razer.com/gaming-egpus/Razer-Core-X/RC21-01430100-R3U1
 
 * Type: Razer Core v2
 * Cpu: none
@@ -22,7 +31,7 @@ If you have a workstation, we have a [GC-Titan Ridge card](https://www.gigabyte.
 
 # macOS Software
 
-Older Macs typically have a Thunderbolt 2 interface (physically a mini-display port). With the eGPU there is a Thunderbolt 2 to 3 converter available, together with a Thunderbolt 2 cable. That being said, Apple disabled eGPU over Thunderbolt 1 and 2 with macOS 10.13.4 and Nvidia GPU's are not officially supported. There are [ways to work around this](https://github.com/mayankk2308/purge-wrangler), but your mileage may vary.
+Older Macs typically have a Thunderbolt 2 interface (physically a mini-display port). With the Core v2 there is a Thunderbolt 2 to 3 converter available, together with a Thunderbolt 2 cable. That being said, Apple disabled eGPU over Thunderbolt 1 and 2 with macOS 10.13.4 and Nvidia GPU's are not officially supported. There are [ways to work around this](https://github.com/mayankk2308/purge-wrangler), but your mileage may vary.
 
 Apple recommends as an alternative eGPU the [Blackmagic eGPU](https://support.apple.com/en-us/HT208544), but the AMD GPU inside cannot be upgraded. An alternative (upgradable) configuration could be a [Razer Core X with a Radeon Vega 64 ](https://9to5mac.com/2018/08/02/2018-macbook-pro-amd-vega-64-egpu-video/). Yet, the pre-requisite for these AMD alternatives  is that you can [port your Machine Learning project to an AMD Radeon GPU](https://instinct.radeon.com/en/6-deep-learning-projects-amd-radeon-instinct/).
 
