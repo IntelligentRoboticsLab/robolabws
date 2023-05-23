@@ -1,6 +1,6 @@
 # Machine Learning Machines
 
-There are now ten workstations available: four in the robolab (C3.165) and six in the blue-student lab (C2.115 and C2.116).
+There are now nine workstations available in the robolab (L0.01) at LAB42.
 
 # Intentions
 The workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
@@ -103,8 +103,8 @@ The following are rules that every user granted access to the workstation should
 * Please help others in real life or on Slack , channel #daretoask, with problems if you know how to solve them. If you have a problem, see if you can ask someone or ask in the Slack question channel #daretoask. 
 * Abusing the use of a desktop, thus clouding the GPU is penalising others who also need the GPU power, please check carefully whether your program is using what you expected it to use.
 * Send an update in the Slack channel of your workstation when you'll be using a GPU, indicating the time span, which GPU will be used (if relevant) and how long the process will approximately run.
-* Every user, should if possible, be present in room C3.165 when using the workstations. Exceptions is when the room is used for teaching purposes.
-* In the case of the unavailability of the room, one could still connect to the workstation via SSH connection with the appropriate credentials through the terminal or via SFTP connection in Nautilus or any file manager in Linux or through an IDE
+* Every user, should if possible, be present in room L0.01 when using the workstations. This makes it easier to coordinate the use of each workstation. When you are the only user of the workstation you could work from home.
+* In the case of the unavailability of the room, one could still connect to the workstation via SSH connection with the appropriate credentials through the terminal or via SFTP connection in Nautilus or any file manager in Linux or through an IDE. Only one of the WSs can be reached from outside, from there you can jump to the other WSs. Ask Joey for the procedure.
 * When using a notebook remotely on the workstation, always close after the work is finished, it frees spaces
 * Always close all applications and log off if you're not using the workstation to free space on the GPU.
 * When you're done with your project, your account will be blocked. You will then receive a notification of the admin about the termination of your access to the Workstation.
