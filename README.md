@@ -64,12 +64,11 @@ The ip for WS6 ends with .207<br>
 The ip for WS7 ends with .206<br>
 The ip for WS8 ends with .205<br>
 
-The two Aurora-R11 computers have the following specifications:<br>
+The one Aurora-R11 computers has the following specifications:<br>
 * Cpu: Intel Core i9 10900KF (10 cores/20 threads)
 * Memory: 64 GB DDR4
 * GPU for calculation: NVidia RTX 3090 (24 GB)
 
-The ip for WS9 ends with .127<br>
 The ip for WS10 ends with .126<br>
 
 
@@ -92,9 +91,7 @@ For executables:
 export PATH=${PATH}:/usr/local/cuda/bin
 ```
 # Location
-The machines are located in the Robolab, room C3.165.
-RobolabWS 1 and 3 are located in the Robolab, room C3.165 and RobolabWS 2 and 4 are located in C2.115.
-RobolabWS 5,6,7 and 8 are located at the blue student lab in C2.116. RobolabWS 9 and 10 are located in the Robolab 
+The machines are located in the Robolab, room L0.01.
 
 # Updates
 To keep the machine safe and up to date, every first Tuesday of the month an update-upgrade and a restart will be performed. If this caused any troubles for you, inform the administrators.
