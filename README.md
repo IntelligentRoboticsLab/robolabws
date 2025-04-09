@@ -5,10 +5,7 @@ There are now nine workstations available in the robolab (L0.01) at LAB42.
 # Intentions
 The workstations can be used for any computationally intense project but is mainly designed to be a rapid prototyping machine. This means that you can easily develop your software after which you offload it to some cloud provider. You can get a user account without sudo rights on this machines.
 
-In addition, two external GPU stations are available, which allows to accelerate the training on your own laptop when the laptop has no internal GPU. To be able to use an external GPU, your laptop needs at least a Thunderbolt interface. More details of this setup can be found in another document: <a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eGPU.md> eGPU.md</a>. For mobile applications an external TPU is availabe (<a href=https://github.com/IntelligentRoboticsLab/robolabws/blob/master/eTPU.md>eTPU.md</a>) 
-
-To get a user account, please fill in the following form: https://docs.google.com/forms/d/17g55QFfQvWaMBd_pTkS5fbABbB_1nxvXvbQvaZgeznc/edit 
-This form will ask the following details:
+To get a user account, please send a mail to `robolabws@gmail.com` with the following information:
 
 * Your full name and those of your partners (if applicable)
 * Education (AI, CS, etc..)
@@ -18,14 +15,14 @@ This form will ask the following details:
     * Abstract
     * Timeframe (when you expect to start and finish)
     * Required resources
-    * Required software  
+    * Required software
 * If the use of a the desktop screen is important for the project at hand and for how long
 
-When you need access to the robolab, contact `A.Visser@uva.nl` with the following information:
+If you need access to the robolab, please also add the following information:
 * studentnummer
 * passnummer
 
-If any problems or questions come up, you can email to `robolabws@gmail.com` to email the admins.
+If any problems or questions come up, you can email to `robolabws@gmail.com`
 
 # Important notice
 Keep in mind that your home directory on the computer is public. To prevent any trouble, it is smart to make folders containing important keys or details private, or make your entire home directory private.
