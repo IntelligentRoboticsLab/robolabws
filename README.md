@@ -16,6 +16,7 @@ To get a user account, please send a mail to `robolabws@gmail.com` with the foll
     * Timeframe (when you expect to start and finish)
     * Required resources
     * Required software
+    * Required Ubuntu version
 * If the use of a the desktop screen is important for the project at hand and for how long
 
 If you need access to the robolab, please also add the following information:
