@@ -71,11 +71,8 @@ The ip for WS10 ends with .126<br>
 
 
 # Software
-* The workstations are running Ubuntu 18.04.4 LTS
 * Tensorflow wheels are available for python 2 and 3. The python2 wheel is located at /home/robolab/tensorflow_pk_2/ and the python 3 wheel is located at /home/robolab/tensorflow_pk/ on workstation 1 and 2. Currently the wheels are Tensorflow version 1.4. When using the wheels to install tensorflow, you will get a version that is optimized for the CPU in the workstation and it will perform better than the version that is installed using pip.
 * openCV 3 has also been compiled and is available on request.
-
-The on request software will soon be moved to a folder where it is accessible to all users of the machine.
 
 To add precompiled software (for instance cuda) to your own environment add the following lines to your `~/.bashrc` file:
 
@@ -97,15 +94,13 @@ To keep the machine safe and up to date, every first Tuesday of the month an upd
 # Guidelines
 The following are rules that every user granted access to the workstation should follow:
 
-* Every user should be member of the slack channel : https://robolabws.slack.com/ and communicate through the channel on which you have been assigned.
-* Please help others in real life or on Slack , channel #daretoask, with problems if you know how to solve them. If you have a problem, see if you can ask someone or ask in the Slack question channel #daretoask. 
+* Always make sure to keep backups of your data - as the machines are heavily used and disk space is limited, disk cleanups will happen!
 * Abusing the use of a desktop, thus clouding the GPU is penalising others who also need the GPU power, please check carefully whether your program is using what you expected it to use.
-* Send an update in the Slack channel of your workstation when you'll be using a GPU, indicating the time span, which GPU will be used (if relevant) and how long the process will approximately run.
 * Every user, should if possible, be present in room L0.01 when using the workstations. This makes it easier to coordinate the use of each workstation. When you are the only user of the workstation you could work from home.
 * In the case of the unavailability of the room, one could still connect to the workstation via SSH connection with the appropriate credentials through the terminal or via SFTP connection in Nautilus or any file manager in Linux or through an IDE. Only one of the WSs can be reached from outside, from there you can jump to the other WSs. Ask Joey for the procedure.
 * When using a notebook remotely on the workstation, always close after the work is finished, it frees spaces
 * Always close all applications and log off if you're not using the workstation to free space on the GPU.
-* When you're done with your project, your account will be blocked. You will then receive a notification of the admin about the termination of your access to the Workstation.
+* When you're done with your project, your account will be blocked and your data will be removed.
 
 # Tips
 The following are handy commands, when one need to connect and be flexible while working with a SSH connection:
