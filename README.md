@@ -102,28 +102,37 @@ The following are rules that every user granted access to the workstation should
 * Always close all applications and log off if you're not using the workstation to free space on the GPU.
 * When you're done with your project, your account will be blocked and your data will be removed.
 
+# Work remotely with SSH
+
+You can access your assigned machine (ws{number}) from the outside through the following procedure:
+
+``ssh jumpbot@145.100.134.14 -i ~\.ssh\{your_ssh_key}``
+
+From here you can "jump" to your specific machine:
+
+``ssh {username}@ws{number}``
+
+Alternatively, you can make a ssh config file:
+
+``nano ~/.ssh/config``
+```
+Host jumpbot  
+   HostName 145.100.134.14  
+   User jumpbot  
+   IdentityFile ~/.ssh/{your_ssh_key}
+  
+Host ws{number}
+   Hostname wsnumber} 
+   user {username}
+ProxyJump jumpbot 
+```
+After saving the config, you can directly login with:
+``ssh ws{number}``
+
 # Tips
 The following are handy commands, when one need to connect and be flexible while working with a SSH connection:
-* Start a vpn-connection to get access to the UvA network
-* Connecting to the workstation </br>
-  ```ssh user@ipWorkStation``` </br>
-  password: userPassWord
-* Copying file to local machine to remote </br>
-  ``` scp [file/dir -r] user@ipWorkStation:[pathToWorkstationFile]``` </br>
-  password: userPassword </br>
-* Porting local changes on port XXXX to remote YYYY </br>
-  ``` ssh -N -f -L localhost:YYYY:localhost:XXXX user@ipWorkStation ```</br>
-  For example, porting local changes on port 7865 to remote 8888 </br>
-  ``` ssh -N -f -L localhost:8888:localhost:7865 user@ipWorkStation ```</br>
-  ``` jupyter notebook --port=7865 ```
-* Connecting to tensorboard remotely </br>
-  ```ssh -L 18888:127.0.0.1:8888 user@ipWorkStation ``` </br>
-  Serve locally to browser: ```http://127.0.0.1:18888/ ``` </br>
 * Watch the usage of the GPU and which user is using it </br>
   ```watch -n 1 nvidia-smi```
-* Connecting remotely through Nautilus </br>
-  * Open Nautilus locally and select connect to server </br>
-  * Set as server address: ```stfp://ipWorkStation/home/user```
 * Use <a href="https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/"> tmux</a> to start a session on the workstation and be able to detach it so your session will keep alive until you kill the tmux server. For the person more familiar with tmux, this <a href="https://gist.github.com/MohamedAlaa/2961058"> cheatsheet </a> will come in handy. 
 * To see which user is using all the resources, use the following command on the terminal</br>
 ``` htop ``` </br>
